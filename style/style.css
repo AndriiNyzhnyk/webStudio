@@ -131,6 +131,14 @@ header {
     text-align: center;
 }
 
+#textMonitorSlider h3 {
+    color: #1378cc;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: Arial;
+    margin: 45px 0 55px 0;
+}
+
 #monitorSlider {
     width: 1600px;
     margin: 25px auto;
