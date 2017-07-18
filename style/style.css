@@ -191,3 +191,46 @@ header {
 #buttonStartProject button:hover {
     background-color: #fff200;
 }
+
+#ourTeam {
+    margin-top: 120px;
+}
+
+#textOurTeam h4 {
+    margin: 0 0 0 120px;
+    font-size: 2.2em;
+
+}
+
+#ourTeamLocations {
+    margin-top: 50px;
+}
+
+.iconOurTeam {
+    display: inline-block;
+    min-height: 150px;
+    padding: 12px;
+    margin: 0 0 0 90px;
+    text-align: center;
+
+}
+
+.iconOurTeam img {
+    width: 250px;
+    height: 300px;
+}
+
+.iconOurTeam p {
+    font-size: 1.6em;
+    /*margin: 15px;*/
+}
+
+.appointment {
+    color: red;
+    margin: -15px 0 0 0;
+
+}
+
+.namePerson {
+    margin: 15px;
+}
