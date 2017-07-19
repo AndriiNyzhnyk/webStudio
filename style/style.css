@@ -24,6 +24,10 @@ body, html {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*style for header*/
 header {
     width: 1920px;
@@ -199,7 +203,6 @@ header {
 #textOurTeam h4 {
     margin: 0 0 0 120px;
     font-size: 2.2em;
-
 }
 
 #ourTeamLocations {
@@ -212,7 +215,6 @@ header {
     padding: 12px;
     margin: 0 0 0 90px;
     text-align: center;
-
 }
 
 .iconOurTeam img {
@@ -222,13 +224,11 @@ header {
 
 .iconOurTeam p {
     font-size: 1.6em;
-    /*margin: 15px;*/
 }
 
 .appointment {
     color: red;
     margin: -15px 0 0 0;
-
 }
 
 .namePerson {
@@ -249,7 +249,6 @@ header {
     position: absolute;
     top: 20px;
     color: white;
-
 }
 
 #textHiring h2 {
@@ -262,13 +261,11 @@ header {
     margin: -50px 0 0 130px;
 }
 
-
 #buttonHiring {
     position: absolute;
     top: 90px;
     right: 150px;
 }
-
 
 #buttonHiring button {
     width: 400px;
@@ -280,4 +277,66 @@ header {
 
 #buttonHiring button:hover {
     background-color: #fff200;
+}
+
+footer {
+    margin-top: -5px;
+    background: url(../images/footer.gif) no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+
+.menuList {
+    display: inline-block;
+    min-width: 350px;
+    margin: 150px 0 0 80px;
+    color: white;
+    position: relative;
+}
+
+.menuList h5 {
+    font-size: 2em;
+    margin: 40px 0;
+}
+
+.menuList ul {
+    padding-left: 0;
+}
+
+.menuList ul li {
+    font-size: 2em;
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.menuList ul li a {
+    color: darkgray;
+}
+
+.menuList ul li a:hover {
+    color: white;
+}
+
+#menu2 {
+    bottom: 110px;
+    margin-left: 20px;
+}
+
+#menu3 {
+    bottom: 110px;
+    margin-left: 5px;
+}
+
+#menu3 ul li, #menu4 ul li {
+    color: darkgray;
+}
+
+#menu4 {
+    bottom: 140px;
+    margin-left: 200px;
+}
+
+#menu4 h5 {
+    font-size: 3.3em;
 }
