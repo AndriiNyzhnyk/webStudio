@@ -5,6 +5,14 @@ body, html {
     font-family: Times, Arial;
 }
 
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+/*style for mainWrap*/
 #mainWrap {
     width: 100%;
     height: 100%;
@@ -13,6 +21,7 @@ body, html {
     background-color: #cfcaca;
 }
 
+/*style for wpap*/
 #wrap {
     width: 1920px;
     padding: 0;
@@ -20,13 +29,6 @@ body, html {
     background-color: white;
 }
 
-.clear {
-    clear: both;
-}
-
-a {
-    text-decoration: none;
-}
 
 /*style for header*/
 header {
@@ -62,8 +64,8 @@ header {
     font-size: 2.5em;
     margin: 20px 0;
 }
+
 #captionParag2 {
-    /*font-family: "Comic Sans MS";*/
     font-style: oblique;
 }
 
@@ -91,15 +93,15 @@ header {
     margin-right: 40px;
 }
 
+/*style for content*/
 #content {
     width: 100%;
     background-color: white;
 }
 
+/*style for blockAboutUs located in content*/
 .blockAboutUs {
     float: left;
-    /*border: 1px solid black;*/
-    /*box-sizing: border-box;*/
     width: 29%;
     margin: 60px 0 20px 40px;
     min-height: 450px;
@@ -136,6 +138,7 @@ header {
     text-align: center;
 }
 
+/*styles for slider text*/
 #textMonitorSlider h3 {
     color: #1378cc;
     font-size: 3.5em;
@@ -144,6 +147,7 @@ header {
     margin: 45px 0 55px 0;
 }
 
+/*style that view monitorSlider */
 #monitorSlider {
     width: 1600px;
     margin: 25px auto 0 auto;
@@ -155,6 +159,7 @@ header {
     margin: 0 auto;
 }
 
+/*style for block StartProject*/
 #blockStartProject {
     width: 100%;
     height: 250px;
@@ -196,6 +201,8 @@ header {
     background-color: #fff200;
 }
 
+
+/*style for block our team*/
 #ourTeam {
     margin-top: 120px;
 }
@@ -209,6 +216,7 @@ header {
     margin-top: 50px;
 }
 
+/*personal icon team*/
 .iconOurTeam {
     display: inline-block;
     min-height: 150px;
@@ -226,6 +234,7 @@ header {
     font-size: 1.6em;
 }
 
+/*style for appointment and name man our team*/
 .appointment {
     color: red;
     margin: -15px 0 0 0;
@@ -235,6 +244,7 @@ header {
     margin: 15px;
 }
 
+/*style for block hiring a job*/
 #hiring {
     margin: 100px 0 0 0;
     position: relative;
@@ -279,6 +289,8 @@ header {
     background-color: #fff200;
 }
 
+
+/*style for footer and its elements*/
 footer {
     margin-top: -5px;
     background: url(../images/footer.gif) no-repeat;
@@ -286,7 +298,7 @@ footer {
     height: 650px;
 }
 
-
+/*style for menu footer*/
 .menuList {
     display: inline-block;
     min-width: 350px;
