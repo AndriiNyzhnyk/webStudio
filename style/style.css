@@ -50,7 +50,7 @@ header {
 #caption {
     position: absolute;
     text-align: center;
-    top: 150px;
+    top: 120px;
     left: 31%;
     color: white;
 }
@@ -71,7 +71,7 @@ header {
 
 #headerButton {
     position: absolute;
-    top: 550px;
+    top: 500px;
     left: 38%;
 
 }
@@ -91,6 +91,58 @@ header {
 
 #buttonHire {
     margin-right: 40px;
+}
+
+@media all and (max-width: 1366px ){
+    /*style for wpap*/
+    #wrap {
+        width: 1286px;
+    }
+
+    /*style for header*/
+    header {
+        width: 1286px;
+    }
+
+    #imgHeader img {
+        width: 1286px;
+        height: 650px;
+    }
+
+    #caption {
+        top: 100px;
+        left: 25%;
+    }
+
+    #caption h1 {
+        font-size: 5em;
+        margin: 20px 0;
+    }
+
+
+    #caption p {
+        font-size: 2.3em;
+        margin: 0;
+    }
+
+    #captionParag2 {
+        font-style: oblique;
+        margin-top: -20px !important;
+        font-size: 2em !important;
+    }
+
+    #headerButton {
+        top: 400px;
+        left: 36%;
+    }
+
+    #headerButton button {
+        padding: 15px 0;
+        width: 170px;
+        font-size: 1.1em;
+    }
+
+
 }
 
 /*style for content*/
@@ -136,6 +188,43 @@ header {
     color: grey;
     font-size: 1.5em;
     text-align: center;
+}
+
+@media all and (max-width: 1366px ) {
+    /*style for blockAboutUs located in content*/
+    .blockAboutUs {
+        float: left;
+        width: 28%;
+        margin: 35px 0 20px 30px;
+        min-height: 400px;
+        padding: 15px;
+    }
+
+    .blockAboutUs img {
+        width: 270px;
+        height: 270px;
+        margin-left: 40px;
+    }
+
+    #block1 h3 {
+        margin-left: 13%;
+    }
+
+    #block2 h3 {
+        margin-left: 10%;
+    }
+
+    #block3 h3 {
+        margin-left: 18%;
+    }
+
+    .blockAboutUs h3 {
+        font-size: 1.8em;
+    }
+
+    .blockAboutUs p {
+        font-size: 1em;
+    }
 }
 
 /*styles for slider text*/
