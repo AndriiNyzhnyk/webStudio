@@ -41,6 +41,16 @@
     outline: none;
     background: transparent;
 }
+
+@media all and (max-width: 1366px ) {
+    .slick-prev,
+    .slick-next
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+}
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
@@ -78,10 +88,24 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+@media all and (max-width: 1366px ) {
+    .slick-prev:before,
+    .slick-next:before
+    {
+        font-size: 45px;
+    }
+}
 
 .slick-prev
 {
     left: -65px;
+}
+
+@media all and (max-width: 1366px ) {
+    .slick-prev
+    {
+        left: -45px;
+    }
 }
 [dir='rtl'] .slick-prev
 {
@@ -101,6 +125,14 @@
 {
     right: -65px;
 }
+
+@media all and (max-width: 1366px ) {
+    .slick-next
+    {
+        right: -45px;
+    }
+}
+
 [dir='rtl'] .slick-next
 {
     right: auto;

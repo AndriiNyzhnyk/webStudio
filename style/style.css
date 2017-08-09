@@ -248,6 +248,24 @@ header {
     margin: 0 auto;
 }
 
+@media all and (max-width: 1366px ) {
+    #textMonitorSlider h3 {
+        font-size: 2.7em;
+        margin: 45px 0;
+    }
+
+    /*style that view monitorSlider */
+    #monitorSlider {
+        width: 1000px;
+        margin: 25px auto 0 auto;
+    }
+
+    .imgSlider {
+        width: 800px;
+        height: 500px;
+    }
+}
+
 /*style for block StartProject*/
 #blockStartProject {
     width: 100%;
