@@ -387,11 +387,7 @@ header {
 
     /*personal icon team*/
     .iconOurTeam {
-        display: inline-block;
-        min-height: 150px;
-        padding: 12px;
         margin: 0 0 0 65px;
-        text-align: center;
     }
 
     .iconOurTeam img {
@@ -460,6 +456,41 @@ header {
     background-color: #fff200;
 }
 
+@media all and (max-width: 1366px ) {
+    /*style for block hiring a job*/
+    #hiring {
+        margin: 50px 0 0 0;
+    }
+
+    #hiring img {
+        height: 200px;
+    }
+
+    #textHiring {
+        top: 10px;
+    }
+
+    #textHiring h2 {
+        font-size: 3em;
+        margin-left: 70px;
+    }
+
+    #textHiring p {
+        font-size: 1.7em;
+        margin: -50px 0 0 70px;
+    }
+
+    #buttonHiring {
+        top: 55px;
+        right: 100px;
+    }
+
+    #buttonHiring button {
+        width: 220px;
+        height: 70px;
+        font-size: 1.1em;
+    }
+}
 
 /*style for footer and its elements*/
 footer {
