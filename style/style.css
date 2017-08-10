@@ -370,6 +370,41 @@ header {
     font-size: 1.6em;
 }
 
+@media all and (max-width: 1366px ) {
+    /*style for block our team*/
+    #ourTeam {
+        margin-top: 50px;
+    }
+
+    #textOurTeam h4 {
+        margin: 0 0 0 80px;
+        font-size: 1.9em;
+    }
+
+    #ourTeamLocations {
+        margin-top: 40px;
+    }
+
+    /*personal icon team*/
+    .iconOurTeam {
+        display: inline-block;
+        min-height: 150px;
+        padding: 12px;
+        margin: 0 0 0 65px;
+        text-align: center;
+    }
+
+    .iconOurTeam img {
+        width: 150px;
+        height: 180px;
+    }
+
+    .iconOurTeam p {
+        font-size: 1.1em;
+    }
+
+}
+
 /*style for appointment and name man our team*/
 .appointment {
     color: red;
