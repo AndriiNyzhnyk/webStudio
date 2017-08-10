@@ -533,12 +533,12 @@ footer {
 }
 
 #menu2 {
-    bottom: 110px;
+    bottom: 113px;
     margin-left: 20px;
 }
 
 #menu3 {
-    bottom: 110px;
+    bottom: 113px;
     margin-left: 5px;
 }
 
@@ -547,10 +547,58 @@ footer {
 }
 
 #menu4 {
-    bottom: 165px;
+    bottom: 168px;
     margin-left: 200px;
 }
 
 #menu4 h5 {
     font-size: 3.3em;
+}
+
+@media all and (max-width: 1366px ) {
+    /*style for footer and its elements*/
+    footer {
+        margin-top: -5px;
+        height: 450px;
+    }
+
+    /*style for menu footer*/
+    .menuList {
+        min-width: 220px;
+        margin: 60px 0 0 60px;
+    }
+
+    .menuList h5 {
+        font-size: 1.3em;
+        margin: 40px 0;
+    }
+
+    .menuList ul li {
+        font-size: 1.2em;
+        margin: 20px 0;
+    }
+
+    #menu2 {
+        bottom: 83px;
+        margin-left: 20px;
+    }
+
+    #menu3 {
+        bottom: 83px;
+        margin-left: 5px;
+    }
+
+
+    #menu4 {
+        bottom: 125px;
+        margin-left: 150px;
+    }
+
+    #menu4 h5 {
+        font-size: 2em;
+    }
+
+    #menu4 ul li {
+        margin-top: -12px;
+    }
 }
